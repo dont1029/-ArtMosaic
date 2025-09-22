@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Moody Studio Portrait", 
+    "title": "Moody Light Studio Portrait", 
 
     "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448012/1_oryom7.png",
-    "displayPrompt": "Craft a moody studio portrait of the uploaded person bathed in a golden-orange spotlight that creates a glowing circular halo ", 
+    "displayPrompt": "Craft a moody studio portrait of the uploaded person bathed in a golden-orange", 
     "allPrompts": "This is a photo of me. Craft a moody studio portrait of the uploaded person bathed in a golden-orange spotlight that creates a glowing circular halo behind them on the wall. The warm light should sculpt the face and upper body with soft, sunset-like tones while casting a strong head shadow to the right. Style the person.",
     "link": "https://aistudio.google.com",
     "gender": "f"
@@ -24,7 +24,7 @@
     "id": 3,
     "title": "Paris Night-Time Portrait",
     "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448018/2_qabqrg.png",
-    "displayPrompt": "Create an ultra-realistic night-time portrait from this photo, standing near the Arc de Triomphe at Place Charles de Gaulle in Paris.", 
+    "displayPrompt": "Create an ultra-realistic night-time portrait from this photo, standing near the Arc .", 
       "allPrompts": [
     "Create an ultra-realistic night-time portrait from this photo, standing near the Arc de Triomphe at Place Charles de Gaulle in Paris.",
     "Background: The Arc de Triomphe is fully visible and brightly illuminated in the center of the frame, with deep shadows and warm street lights glowing softly in the background. The classic ‘Place Charles de Gaulle’ street sign is clearly visible on the ornate lamppost to the right side of the subject.",
