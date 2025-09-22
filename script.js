@@ -35,7 +35,7 @@ async function loadTrends(genderFilter = null) {
         // Open button
         const openBtn = card.querySelector('.open-btn');
         openBtn.addEventListener('click', () => {
-          window.open(trend.links, '_blank');
+          window.open(trend.link, '_blank');
         });
 
         container.appendChild(card);
