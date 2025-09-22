@@ -1,0 +1,188 @@
+/* General styles */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Gender filter buttons */
+#gender-filters {
+  text-align: center;
+  margin: 25px 0;
+}
+
+#gender-filters button {
+  padding: 12px 25px;
+  margin: 0 10px 10px 10px;
+  border: none;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+#gender-filters button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#gender-filters button.active {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+}
+
+/* Trends container */
+#trends-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row desktop */
+  gap: 25px;
+  justify-items: center;
+  padding: 10px;
+}
+
+/* Card styling */
+.trend-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 300px;
+}
+
+.trend-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+.trend-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.trend-card h3 {
+  margin: 10px 0 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.trend-card p {
+  font-size: 14px;
+  color: #666;
+  min-height: 50px;
+  line-height: 1.4;
+}
+
+/* Buttons inside cards */
+button {
+  margin: 8px 5px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.copy-btn {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+}
+
+.copy-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.open-btn {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+  color: white;
+}
+
+.open-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e0e0e0;
+  font-size: 14px;
+  color: #555;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive Design */
+
+/* Tablet & small desktops - 2 per row */
+@media screen and (max-width: 1024px) {
+  #trends-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .trend-card h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile - 2 per row */
+@media screen and (max-width: 600px) {
+  #trends-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .trend-card h3 {
+    font-size: 1.1rem;
+  }
+  .trend-card p {
+    font-size: 13px;
+  }
+  button {
+    width: 100%;
+    margin: 6px 0;
+    font-size: 13px;
+    padding: 10px 0;
+  }
+}

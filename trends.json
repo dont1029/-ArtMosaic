@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Moody Studio Portrait", 
+
+    "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448012/1_oryom7.png",
+    "displayPrompt": "Craft a moody studio portrait of the uploaded person bathed in a golden-orange spotlight that creates a glowing circular halo ", 
+    "allPrompts": "This is a photo of me. Craft a moody studio portrait of the uploaded person bathed in a golden-orange spotlight that creates a glowing circular halo behind them on the wall. The warm light should sculpt the face and upper body with soft, sunset-like tones while casting a strong head shadow to the right. Style the person.",
+    "links": "https://aistudio.google.com/",
+    "gender": "f"
+    
+  },
+  {
+  "id": 3,
+  "title": "Chic Red Satin Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758457302/1_1_qmosgi.png",
+  "displayPrompt": "A chic woman in a vibrant red satin blazer with long flowing hair and strong shadows.",
+  "allPrompts": "A chic woman in a vibrant red satin blazer and matching blouse, with a black belt and black pants. She has long, dark hair flowing slightly, intense red lipstick, and elegant earrings. The lighting creates a strong shadow on the wall to her left, highlighting her features against a neutral background.",
+  "gender": "f",
+  "links": "https://aistudio.google.com/"
+},
+
+  {
+    "id": 2,
+    "title": "Paris Night-Time Portrait",
+    "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448018/2_qabqrg.png",
+    "displayPrompt": "Create an ultra-realistic night-time portrait from this photo, standing near the Arc de Triomphe at Place Charles de Gaulle in Paris.", 
+      "allPrompts": [
+    "Create an ultra-realistic night-time portrait from this photo, standing near the Arc de Triomphe at Place Charles de Gaulle in Paris.",
+    "Background: The Arc de Triomphe is fully visible and brightly illuminated in the center of the frame, with deep shadows and warm street lights glowing softly in the background. The classic ‘Place Charles de Gaulle’ street sign is clearly visible on the ornate lamppost to the right side of the subject.",
+    "Lighting & Color: Maintain the warm, ambient nighttime lighting with subtle yellow-orange glows from the streetlights. Capture the same soft shadows and realistic noise/grain present in the original image. Apply similar color grading – warm highlights, deep shadows, and slightly muted tones to evoke a cinematic, moody feel.",
+    "Pose & Angle: The subject is facing left, head tilted upward at a ~45-degree angle, with eyes closed and a serene, introspective expression. The camera angle is slightly low and tilted upward, capturing the chest-up view in a three-quarter profile from the left side. The pose must be relaxed, with hands in jacket pockets, shoulders naturally slouched, conveying a quiet, reflective mood.",
+    "Outfit: Dress the subject in a black leather jacket layered over a red textured sweater, with the lower portion of blue jeans slightly visible. Keep the outfit textures and folds consistent with real fabric physics under the lighting conditions."
+  ],
+    "links": "https://aistudio.google.com/",
+    "gender": "f"
+  },
+  {
+  "id": 3,
+  "title": "Thoughtful Man Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758449750/Generated_Image_September_21_2025_-_3_45PM_ptouup.png",
+  "displayPrompt": "Black and white portrait of a man with glasses and a thoughtful expression.",
+  "allPrompts": "Black and white portrait of a man with glasses and a thoughtful expression, hand on chin, wearing a dark t-shirt, dramatic low-key lighting with deep shadows and a dark background.",
+  "gender": "m",
+  "link": "https://aistudio.google.com/"
+  
+},
+ {
+  "id": 3,
+  "title": "4K HD Portrait in Black Saree",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758447636/Generated_Image_September_21_2025_-_3_08PM_vnitc5.png",
+  "displayPrompt": "Make a 4K HD, realistic, and stunning portrait using this image.",
+  "allPrompts": [
+    "Make a 4K HD, realistic, and stunning portrait using this image.",
+    "Hair: Show long, dark, wavy hair cascading over shoulders.",
+    "Attire: A translucent, elegant black saree draped over one shoulder, revealing a fitted blouse underneath.",
+    "Accessories: White flowers are tucked behind her right ear.",
+    "Pose: She is looking slightly to her right, with a soft, serene expression.",
+    "Background: A plain, warm-toned wall, illuminated by a warm light source from the right, creating a distinct, soft-edged shadow of her profile and hair on the wall behind her.",
+    "Mood: The overall mood is retro and artistic."
+  ],
+  "link": "https://aistudio.google.com/",
+  "gender": "f"
+  },
+
+  {
+  "id": 4,
+  "title": "Pensive Young Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758450149/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_tsdbcs.jpg",
+  "displayPrompt": "Black and white portrait of a young person with short, dark hair, seated on a simple chair.",
+  "allPrompts": "A black and white portrait of a young person with short, dark hair, seated on a simple chair. They are wearing a white long-sleeved button-up shirt, dark pants, and light-colored sneakers with socks. One leg is casually crossed over the other, and one hand is supporting their head with a pensive or slightly bored expression, gazing directly at the viewer. The lighting is harsh and directional, coming from the upper right, creating strong, dramatic shadows and highlights across their face and clothing. A prominent, soft-edged shadow of their head and upper body is cast on the light-colored wall behind them. The background is plain and light, emphasizing the subject and the dramatic lighting. The overall mood is thoughtful and artistic, with a high-contrast, studio aesthetic.",
+  "gender": "m",
+  "link": "https://aistudio.google.com/"
+},
+  {
+  "id": 4,
+  "title": "Epic Black & White Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448299/Generated_Image_September_21_2025_-_3_21PM_sdb9c1.png",
+  "displayPrompt": "Make an epic black and white close-up portrait with dramatic lighting.",
+  "allPrompts": [
+    "Make an epic black and white close-up portrait of the uploaded pic with wet hair and water droplets on the face and shoulders.",
+    "Lighting: Strong dramatic lighting highlighting facial features.",
+    "Features: Sharp facial features, glossy lips, piercing eyes, and realistic skin texture.",
+    "Mood: High contrast, studio shot, hyper-realistic, cinematic look.",
+    "Resolution: 4K detail using this picture."
+  ],
+  "link": "https://aistudio.google.com/",
+  "gender": "f"
+}
+
+
+]
