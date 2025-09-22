@@ -179,10 +179,12 @@ footer {
   .trend-card p {
     font-size: 13px;
   }
+ @media screen and (max-width: 600px) {
   button {
-    width: 100%;
+    width: 100%;   /* makes each button full width */
     margin: 6px 0;
     font-size: 13px;
     padding: 10px 0;
   }
+}
 }
