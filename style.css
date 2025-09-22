@@ -28,19 +28,17 @@ h1 {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-/* Gender filter buttons container */
+/* Gender filter buttons */
 #gender-filters {
-  text-align: center;
-  margin: 25px 0;
   display: flex;
   justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap; /* allows wrapping on very narrow screens */
+  gap: 10px; /* spacing between buttons */
+  flex-wrap: wrap; /* optional: allows wrapping if really narrow screen */
 }
 
-/* Gender buttons */
 #gender-filters button {
   padding: 12px 25px;
+  margin: 0 10px 10px 10px;
   border: none;
   background: linear-gradient(135deg, #ff7e5f, #feb47b);
   cursor: pointer;
@@ -112,7 +110,7 @@ h1 {
 }
 
 /* Buttons inside cards */
-.trend-card button {
+button {
   margin: 8px 5px;
   padding: 12px 18px;
   border: none;
@@ -169,29 +167,26 @@ footer {
   }
 }
 
-/* Mobile - 2 per row for cards, keep gender buttons side by side */
+/* Mobile - 2 per row */
 @media screen and (max-width: 600px) {
   #trends-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
   h1 {
     font-size: 1.8rem;
   }
-
   .trend-card h3 {
     font-size: 1.1rem;
   }
-
   .trend-card p {
     font-size: 13px;
   }
-
-  /* Only card buttons become full width */
-  .trend-card button {
-    width: 100%;
+ @media screen and (max-width: 600px) {
+  button {
+    width: 100%;   /* makes each button full width */
     margin: 6px 0;
     font-size: 13px;
     padding: 10px 0;
   }
+}
 }
