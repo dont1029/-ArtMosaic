@@ -1,9 +1,45 @@
 [
+    {
+  "id": 6,
+  "title": "Ethereal Woman Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758545224/Generated_Image_September_22_2025_-_6_15PM_k4eyhw.png",
+  "displayPrompt": "A cinematic portrait of a young woman with short dark hair, among dried flowers.",
+  "allPrompts": "A cinematic portrait of a young woman with windswept, short, dark hair, eyes closed in serene contemplation. She is surrounded by a field of wild, dried flowers and tall grasses, with a moody and ethereal atmosphere. The lighting is soft and diffused, creating a sense of calm and introspection. The overall aesthetic has a vintage, slightly desaturated, and painterly feel.",
+  "gender": "f",
+  "link": "https://aistudio.google.com"
+},
+  {
+  "id": 10,
+  "title": "Kerala Saree Woman Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758547351/Generated_Image_September_22_2025_-_6_42PM_njj6gt.png",
+  "displayPrompt": "A cinematic portrait of a beautiful Indian woman in a Kerala saree, sitting near a riverbank",
+  "allPrompts": "A beautiful Indian woman in a cream-white Kerala saree with golden border, sitting gracefully on a stone near a calm riverbank. She has long wavy black hair adorned with jasmine flowers, holding a white flower near her face while looking back over her shoulder. Soft golden natural lighting, elegant traditional gold jewelry (earrings, bangles), serene and peaceful mood, cinematic portrait photography, high-resolution, detailed fabric texture, realistic and aesthetic.",
+  "gender": "f",
+  "link": "https://aistudio.google.com"
+},
+
+  {
+  "id": 8,
+  "title": "Golden Light Man Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758546111/Generated_Image_September_22_2025_-_6_29PM_q19j3i.png",
+  "displayPrompt": "A hyper-realistic portrait of a young man leaning against a wall, bathed in sunlight",
+  "allPrompts": "A hyper-realistic portrait of a beautiful young man leaning against a wall, his face softly illuminated by golden sunlight streaming through a window. His eyes are closed in peace, with delicate skin and sharp facial features. The atmosphere is dreamy, painterly, and anime-inspired with warm tones and soft lighting.",
+  "gender": "m",
+  "link": "https://aistudio.google.com"
+},
+{
+  "id": 7,
+  "title": "Halo Light Man Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758545593/Generated_Image_September_22_2025_-_6_22PM_e3n4uj.png",
+  "displayPrompt": "A conceptual portrait of a young man with a glowing orange halo-like light behind him.",
+  "allPrompts": "A conceptual portrait of a young man sitting against a dark background, with a dramatic orange circular light behind him like a glowing halo. His shirt is partially illuminated by warm tones while shadows enhance his expression. Minimalist, moody, and cinematic with a surreal artistic style.",
+  "gender": "m",
+  "link": "https://aistudio.google.com"
+},
+
   {
     "id": 1,
-    "title": "Moody Light Studio Portrait", 
-
-    "title": "Moody Studio Portrait Light", 
+    "title": "Moody Light Studio Portrait",  
     "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448012/1_oryom7.png",
     "displayPrompt": "Craft a moody studio portrait of the uploaded person bathed in a golden-orange", 
     "allPrompts": "This is a photo of me. Craft a moody studio portrait of the uploaded person bathed in a golden-orange spotlight that creates a glowing circular halo behind them on the wall. The warm light should sculpt the face and upper body with soft, sunset-like tones while casting a strong head shadow to the right. Style the person.",
@@ -26,7 +62,6 @@
     "title": "Paris Night-Time Portrait",
     "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758448018/2_qabqrg.png",
     "displayPrompt": "Create an ultra-realistic night-time portrait from this photo, standing near the Arc .", 
-    "displayPrompt": "Create an ultra-realistic night-time portrait from this photo, standing near the Arc", 
       "allPrompts": [
     "Create an ultra-realistic night-time portrait from this photo, standing near the Arc de Triomphe at Place Charles de Gaulle in Paris.",
     "Background: The Arc de Triomphe is fully visible and brightly illuminated in the center of the frame, with deep shadows and warm street lights glowing softly in the background. The classic ‘Place Charles de Gaulle’ street sign is clearly visible on the ornate lamppost to the right side of the subject.",
