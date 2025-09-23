@@ -136,12 +136,12 @@ h1 {
   flex-grow: 1;
 }
 /* Button group always at bottom */
-.card-buttons {
+/* .card-buttons {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
   gap: 10px;
-}
+} */
 
 /* Like button (Instagram style) */
 .like-btn {
