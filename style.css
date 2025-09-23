@@ -28,14 +28,21 @@ h1 {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-/* Gender filter buttons container */
-#gender-filters {
-  text-align: center;
-  margin: 25px 0;
+/* Filters wrapper */
+#filters {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+/* Gender filter buttons container */
+#gender-filters {
+  display: flex;
   gap: 10px;
-  flex-wrap: wrap; /* allows wrapping on very narrow screens */
+  flex-wrap: wrap;
 }
 
 /* Gender buttons */
@@ -62,10 +69,32 @@ h1 {
   color: #fff;
 }
 
+/* Sort button
+#sort-filter button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #ffcc00, #ff9900);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+#sort-filter button.active {
+  background: linear-gradient(135deg, #ff6600, #cc0000);
+}
+
+#sort-filter button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+} */
+
 /* Trends container */
 #trends-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 per row desktop */
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   justify-items: center;
   padding: 10px;
@@ -81,6 +110,11 @@ h1 {
   transition: transform 0.3s, box-shadow 0.3s;
   width: 100%;
   max-width: 300px;
+  position: relative;
+
+  display: flex;             /* flexbox */
+  flex-direction: column;    /* stack children vertically */
+  justify-content: space-between; /* push buttons to bottom */
 }
 
 .trend-card:hover {
@@ -95,20 +129,57 @@ h1 {
   margin-bottom: 15px;
   object-fit: cover;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  display: block;
+}
+/* Spacer inside card to push buttons down */
+.card-content {
+  flex-grow: 1;
+}
+/* Button group always at bottom */
+.card-buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.trend-card h3 {
-  margin: 10px 0 8px;
-  font-size: 1.3rem;
+/* Like button (Instagram style) */
+.like-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 25px;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  z-index: 10;
+}
+
+.like-btn.liked {
+  color: #ff2d55;
+  animation: blast 0.5s ease;
+}
+
+@keyframes blast {
+  0% { transform: scale(1); opacity: 1; }
+  40% { transform: scale(1.5); opacity: 0.8; }
+  60% { transform: scale(0.9); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Like count */
+.like-count {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  font-size: 13px;
+  color: #555;
   font-weight: 600;
-  color: #333;
-}
-
-.trend-card p {
-  font-size: 14px;
-  color: #666;
-  min-height: 50px;
-  line-height: 1.4;
+  background: rgba(255,255,255,0.8);
+  padding: 3px 8px;
+  border-radius: 12px;
 }
 
 /* Buttons inside cards */
@@ -155,8 +226,6 @@ footer {
 }
 
 /* Responsive Design */
-
-/* Tablet & small desktops - 2 per row */
 @media screen and (max-width: 1024px) {
   #trends-container {
     grid-template-columns: repeat(2, 1fr);
@@ -169,7 +238,6 @@ footer {
   }
 }
 
-/* Mobile - 2 per row for cards, keep gender buttons side by side */
 @media screen and (max-width: 600px) {
   #trends-container {
     grid-template-columns: repeat(2, 1fr);
@@ -187,7 +255,6 @@ footer {
     font-size: 13px;
   }
 
-  /* Only card buttons become full width */
   .trend-card button {
     width: 100%;
     margin: 6px 0;

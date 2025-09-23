@@ -22,6 +22,7 @@ async function loadTrends(genderFilter = null) {
             <button class="open-btn">🚀 Create</button>
           </div>
         `;
+    
 
         // Copy button
         const copyBtn = card.querySelector('.copy-btn');
