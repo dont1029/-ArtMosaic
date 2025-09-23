@@ -1,4 +1,34 @@
 [
+  {
+  "id": 13,
+  "title": "Golden Hour Sari Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758632453/Generated_Image_September_23_2025_-_6_29PM_wkpbup.png",
+  "displayPrompt": "A traditional Indian woman in a sari, bathed in warm golden-hour light with flowers in her hair.",
+  "allPrompts": "A beautiful young Indian woman, styled in a traditional sari, bathed in the warm glow of golden hour sunlight. Her hair is tied back with gajra flowers, and she wears bangles on her wrist. The lighting creates a serene and ethereal atmosphere.",
+  "gender": "f",
+  "link": "https://aistudio.google.com"
+}
+,
+  {
+  "id": 12,
+  "title": "Elegant Woman in Floral Sari",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758632182/Generated_Image_September_23_2025_-_6_25PM_adnlu7.png",
+  "displayPrompt": "A graceful young woman in a cream sari with teal and lavender floral patterns, captured near a softly lit window.",
+  "allPrompts": "A young woman with long, dark, wavy hair cascading over her shoulder, captured from a slightly over-the-shoulder perspective. She is wearing an elegant cream-colored sari adorned with delicate floral patterns in shades of teal and lavender. Her blouse is a contrasting teal, visible on her shoulder and back. She has a subtle nose stud and a hint of dark eyeliner, looking directly at the viewer with a thoughtful and slightly intense gaze. She is standing near a window with white blinds, and natural light softly illuminates her, creating a gentle play of light and shadow. The overall mood is poised and graceful.",
+  "gender": "f",
+  "link": "https://aistudio.google.com"
+}
+,
+  {
+  "id": 11,
+  "title": "Stylish Man Against Wall",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758631672/Generated_Image_September_23_2025_-_6_14PM_u2qesj.png",
+  "displayPrompt": "A stylish young man stands casually against a textured wall with dramatic natural light and shadows.",
+  "allPrompts": "A young man, lean and stylish, stands casually against a textured wall, with one hand in his pocket and his legs crossed at the ankles. He is wearing a dark, long-sleeved top, black jeans, and black boots. Natural light casts strong shadows on the wall and floor, creating a dramatic, high-contrast effect. He has dark, wavy hair and is looking slightly off to the side with a thoughtful expression.",
+  "gender": "m",
+  "link": "https://aistudio.google.com"
+}
+,
     {
   "id": 6,
   "title": "Ethereal Woman Portrait",
@@ -27,15 +57,7 @@
   "gender": "m",
   "link": "https://aistudio.google.com"
 },
-{
-  "id": 7,
-  "title": "Halo Light Man Portrait",
-  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758545593/Generated_Image_September_22_2025_-_6_22PM_e3n4uj.png",
-  "displayPrompt": "A conceptual portrait of a young man with a glowing orange halo-like light behind him.",
-  "allPrompts": "A conceptual portrait of a young man sitting against a dark background, with a dramatic orange circular light behind him like a glowing halo. His shirt is partially illuminated by warm tones while shadows enhance his expression. Minimalist, moody, and cinematic with a surreal artistic style.",
-  "gender": "m",
-  "link": "https://aistudio.google.com"
-},
+
 
   {
     "id": 1,
