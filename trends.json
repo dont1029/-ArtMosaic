@@ -1,24 +1,5 @@
 [
-  {
-  "id": 13,
-  "title": "Golden Hour Sari Portrait",
-  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758632453/Generated_Image_September_23_2025_-_6_29PM_wkpbup.png",
-  "displayPrompt": "A traditional Indian woman in a sari, bathed in warm golden-hour light with flowers in her hair.",
-  "allPrompts": "A beautiful young Indian woman, styled in a traditional sari, bathed in the warm glow of golden hour sunlight. Her hair is tied back with gajra flowers, and she wears bangles on her wrist. The lighting creates a serene and ethereal atmosphere.",
-  "gender": "f",
-  "link": "https://aistudio.google.com"
-}
-,
-  {
-  "id": 12,
-  "title": "Elegant Woman in Floral Sari",
-  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758632182/Generated_Image_September_23_2025_-_6_25PM_adnlu7.png",
-  "displayPrompt": "A graceful young woman in a cream sari with teal and lavender floral patterns, captured near a softly lit window.",
-  "allPrompts": "A young woman with long, dark, wavy hair cascading over her shoulder, captured from a slightly over-the-shoulder perspective. She is wearing an elegant cream-colored sari adorned with delicate floral patterns in shades of teal and lavender. Her blouse is a contrasting teal, visible on her shoulder and back. She has a subtle nose stud and a hint of dark eyeliner, looking directly at the viewer with a thoughtful and slightly intense gaze. She is standing near a window with white blinds, and natural light softly illuminates her, creating a gentle play of light and shadow. The overall mood is poised and graceful.",
-  "gender": "f",
-  "link": "https://aistudio.google.com"
-}
-,
+
   {
   "id": 11,
   "title": "Stylish Man Against Wall",
