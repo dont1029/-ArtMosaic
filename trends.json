@@ -1,4 +1,13 @@
-[
+[{
+  "id": 14,
+  "title": "Cream Saree Window Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758701305/1_afrfl8.png",
+  "displayPrompt": "A cinematic portrait of the uploaded person in a cream floral saree, standing near a softly lit window with a serene expression.",
+  "allPrompts": "A graceful portrait of [uploaded person’s face], wearing a cream saree with floral prints, standing near a window with soft daylight falling on them. Hair styled in loose waves, natural makeup, subtle jewelry, serene expression, cinematic portrait photography, realistic details, high resolution.",
+  "gender": "f",
+  "link": "https://aistudio.google.com"
+}
+,
 
   {
   "id": 11,
@@ -19,6 +28,16 @@
   "gender": "f",
   "link": "https://aistudio.google.com"
 },
+{
+  "id": 15,
+  "title": "Forest Hoodie Portrait",
+  "image": "https://res.cloudinary.com/dk6bnw41f/image/upload/v1758702201/Generated_Image_September_24_2025_-_1_49PM_sicu38.png",
+  "displayPrompt": "A hyper-realistic cinematic portrait of the uploaded person in a hoodie, leaning against a tree in an autumn forest.",
+  "allPrompts": "A realistic portrait of [user face], leaning casually against a tree in a forest, wearing a modern hoodie and jeans. Autumn atmosphere with golden grass and soft blurred background. Natural lighting, cinematic depth of field, moody yet warm tones. Hyper-realistic detail in clothing texture and skin, fashion photography style.",
+  "gender": "m",
+  "link": "https://aistudio.google.com"
+}
+,
   {
   "id": 10,
   "title": "Kerala Saree Woman Portrait",
